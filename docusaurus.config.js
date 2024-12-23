@@ -60,7 +60,7 @@ const config = {
         additionalLanguages: ['solidity'],
       },
       navbar: {
-        title: 'BeraBook Market Docs',
+        title: 'BeraBook Docs',
         logo: {
           alt: 'BeraBook',
           src: 'img/logo.png',
@@ -77,6 +77,12 @@ const config = {
             position: 'left',
           },
           {
+            label: 'Brand Kit',
+            to: 'https://berabook.notion.site/Brand-Kit-165394942ff88033bf66c30979a9d28b',
+            position: 'right',
+            className: 'persistent',
+          },
+          {
             href: 'https://github.com/BeraBook',
             label: 'GitHub',
             position: 'right',
@@ -89,7 +95,12 @@ const config = {
         links: [
           {
             title: 'Developers',
-            items: [],
+            items: [
+              {
+                label: 'Brand Kit',
+                href: 'https://berabook.notion.site/Brand-Kit-165394942ff88033bf66c30979a9d28b',
+              },
+            ],
           },
           {
             title: 'Github',
