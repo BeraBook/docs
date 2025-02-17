@@ -9,7 +9,7 @@ Bera Book offers an efficient order book system for complex digital assets excha
 
 `BookKey` serves as a unique identifier for orderbooks within the BookManager. This structure comprises of the base currency, quote currency, unit, fee policies for the maker and taker, and hooks. Let's dive deeper into each element.
 
-### **`BookKey` Structure[](https://docs.berabook.fun/concepts/book-key#bookkey-structure)**
+### **`BookKey` Structure[](https://docs.berabook.fun/concepts/technology/book-key#attributes-of-bookkey)**
 
 ```solidity
 /**
@@ -32,7 +32,7 @@ struct BookKey {
 
 ```
 
-### **Attributes of BookKey[](https://docs.berabook.fun/concepts/book-key#attributes-of-bookkey)**
+### **Attributes of BookKey[](https://docs.berabook.fun/concepts/technology/book-key#attributes-of-bookkey)**
 
 - **Base:** Token address of the base asset. For example, ETH is the base asset of the ETH-USDC market.
 - **Unit:** The minimum trading unit in the order book, affecting trade precision and the min/max tradeable quantity.
