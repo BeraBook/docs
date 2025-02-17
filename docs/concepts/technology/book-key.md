@@ -5,8 +5,6 @@ sidebar_position: 3
 ---
 # **Understanding the `BookKey`[](https://docs.berabook.fun/concepts/book-key#understanding-the-bookkey)**
 
-# **Understanding the `BookKey`[](https://docs.berabook.fun/concepts/book-key#understanding-the-bookkey)**
-
 Bera Book offers an efficient order book system for complex digital assets exchanges. At the heart of this system is the `BookManager` contract, which plays a crucial role in identifying and managing each orderbook.
 
 `BookKey` serves as a unique identifier for orderbooks within the BookManager. This structure comprises of the base currency, quote currency, unit, fee policies for the maker and taker, and hooks. Let's dive deeper into each element.
