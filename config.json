@@ -1,7 +1,7 @@
 {
   "index_name": "docs",
-  "start_urls": ["https://docs.clober.io/"],
-  "sitemap_urls": ["http://docs.clober.io/sitemap.xml"],
+  "start_urls": ["https://docs.berabook.fun/"],
+  "sitemap_urls": ["https://docs.berabook.fun/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": [],
   "selectors": {

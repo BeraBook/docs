@@ -3,15 +3,15 @@ id: book-key
 title: Book Key
 sidebar_position: 3
 ---
-# **Understanding the `BookKey`[](https://docs.clober.io/concepts/book-key#understanding-the-bookkey)**
+# **Understanding the `BookKey`[](https://docs.berabook.fun/concepts/book-key#understanding-the-bookkey)**
 
-# **Understanding the `BookKey`[](https://docs.clober.io/concepts/book-key#understanding-the-bookkey)**
+# **Understanding the `BookKey`[](https://docs.berabook.fun/concepts/book-key#understanding-the-bookkey)**
 
 Bera Book offers an efficient order book system for complex digital assets exchanges. At the heart of this system is the `BookManager` contract, which plays a crucial role in identifying and managing each orderbook.
 
 `BookKey` serves as a unique identifier for orderbooks within the BookManager. This structure comprises of the base currency, quote currency, unit, fee policies for the maker and taker, and hooks. Let's dive deeper into each element.
 
-### **`BookKey` Structure[](https://docs.clober.io/concepts/book-key#bookkey-structure)**
+### **`BookKey` Structure[](https://docs.berabook.fun/concepts/book-key#bookkey-structure)**
 
 ```solidity
 /**
@@ -34,7 +34,7 @@ struct BookKey {
 
 ```
 
-### **Attributes of BookKey[](https://docs.clober.io/concepts/book-key#attributes-of-bookkey)**
+### **Attributes of BookKey[](https://docs.berabook.fun/concepts/book-key#attributes-of-bookkey)**
 
 - **Base:** Token address of the base asset. For example, ETH is the base asset of the ETH-USDC market.
 - **Unit:** The minimum trading unit in the order book, affecting trade precision and the min/max tradeable quantity.
